@@ -57,13 +57,10 @@ If you use MoHoBench in your research, please cite:
 We welcome contributions! Please open an **Issue** or **PR** for suggestions, bug fixes, or extensions.  
 
 ## 📧 Contact  
-For questions, email: [yanxuzhu@bjtu.edu.cn]  
+For questions, email: [ yanxuzhu@bjtu.edu.cn, stduan22@m.fudan.edu.cn ]  
 
 ---
 
-### Notes:  
+# TODO Notes:  
 - Replace `[paper_link]`, `[your_email]`, and citation details once available.  
-- Add badges (e.g., PyPI, downloads) if applicable.  
-- Include a "Visual Examples" section with sample images if permitted.  
 
-Let me know if you'd like any refinements!
