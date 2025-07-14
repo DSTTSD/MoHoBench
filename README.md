@@ -42,16 +42,6 @@ We provide code for improving MLLM honesty via:
 - We used [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) for training，the training dataset path is data/vqa_train.json. 
 
 
-## 📜 Citation  
-If you use MoHoBench in your research, please cite:  
-```bibtex  
-@article{mohobench2024,  
-  title={MoHoBench: Assessing Honesty of Multimodal Large Language Models via Unanswerable Visual Questions},  
-  author={Your Name et al.},  
-  journal={arXiv preprint},  
-  year={2024}  
-}  
-```  
 
 ## 🤝 Contributing  
 We welcome contributions! Please open an **Issue** or **PR** for suggestions, bug fixes, or extensions.  
@@ -61,6 +51,16 @@ For questions, email: [ yanxuzhu@bjtu.edu.cn, stduan22@m.fudan.edu.cn ]
 
 ---
 
-# TODO Notes:  
+<!-- # TODO:  
 - Replace `[paper_link]`, `[your_email]`, and citation details once available.  
 
+## 📜 Citation  
+If you use MoHoBench in your research, please cite:  
+```bibtex  
+@article{mohobench2024,  
+  title={MoHoBench: Assessing Honesty of Multimodal Large Language Models via Unanswerable Visual Questions},  
+  author={Your Name et al.},  
+  journal={arXiv preprint},  
+  year={2024}  
+}  
+```   -->
