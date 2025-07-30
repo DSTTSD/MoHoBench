@@ -3,7 +3,17 @@
 
 # MoHoBench: Assessing Honesty of Multimodal Large Language Models via Unanswerable Visual Questions  
 
-![GitHub](https://img.shields.io/badge/license-MIT-blue) ![GitHub](https://img.shields.io/badge/status-active-brightgreen)  
+<p align="center">
+  <a>
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="License">
+  </a>
+  <a>
+    <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status">
+  </a>
+  <a href="https://arxiv.org/pdf/2507.21503">
+    <img src="https://img.shields.io/badge/Paper-arXiv-red" alt="arXiv Paper">
+  </a>
+</p>
 
 ## 📌 Overview  
 **MoHoBench** is the first large-scale benchmark designed to systematically evaluate the *honesty* of Multimodal Large Language Models (MLLMs) when confronted with **visually unanswerable questions**.  
@@ -16,7 +26,11 @@ Despite the remarkable progress of MLLMs in vision-language tasks, their tendenc
 - Benchmarks **28 popular MLLMs**, revealing critical insights:  
   - Most models fail to appropriately refuse unanswerable questions.  
   - Honesty is **not just a language modeling issue** but is significantly influenced by visual input.  
-- Using **supervised and preference learning methods** for honesty alignment, paving the way for future trustworthy MLLM development.  
+- Using **supervised and preference learning methods** for honesty alignment, paving the way for future trustworthy MLLM development.
+
+<p align="center">
+  <img src="image/illustration.pdf" alt="Illustration of MoHoBench: (a) Data Construction; (b) Data Example; (c) Evaluation Framework." width="800">
+</p>
 
 ## 📊 Dataset & Benchmark  
 MoHoBench consists of **12,000+ visual question-answer pairs** across four categories of unanswerable questions. Each sample undergoes rigorous filtering and human verification to ensure quality.  
@@ -32,7 +46,7 @@ We evaluate **28 state-of-the-art MLLMs** (e.g., O1, GPT-4o, Qwen2.5-VL, etc.) o
 - **Low Honesty Rates:** Most models struggle to refuse unanswerable questions.  
 - **Vision Matters:** Visual signals significantly impact honesty, beyond pure language modeling.  
 
-See our [paper](insert_arxiv_link) for detailed analysis and leaderboard.  
+See our [paper](https://arxiv.org/pdf/2507.21503) for detailed analysis and leaderboard.  
 
 ## 🛠️ Honesty Alignment Methods  
 We provide code for improving MLLM honesty via:  
