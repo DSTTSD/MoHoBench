@@ -67,18 +67,15 @@ We welcome contributions! Please open an **Issue** or **PR** for suggestions, bu
 ## 📧 Contact  
 For questions, email: [ yanxuzhu@bjtu.edu.cn, stduan22@m.fudan.edu.cn ]  
 
----
-
-<!-- # TODO:  
-- Replace `[paper_link]`, `[your_email]`, and citation details once available.  
-
 ## 📜 Citation  
 If you use MoHoBench in your research, please cite:  
 ```bibtex  
-@article{mohobench2024,  
-  title={MoHoBench: Assessing Honesty of Multimodal Large Language Models via Unanswerable Visual Questions},  
-  author={Your Name et al.},  
-  journal={arXiv preprint},  
-  year={2024}  
+@misc{zhu2025mohobenchassessinghonestymultimodal,
+      title={MoHoBench: Assessing Honesty of Multimodal Large Language Models via Unanswerable Visual Questions}, 
+      author={Yanxu Zhu and Shitong Duan and Xiangxu Zhang and Jitao Sang and Peng Zhang and Tun Lu and Xiao Zhou and Jing Yao and Xiaoyuan Yi and Xing Xie},
+      year={2025},
+      eprint={2507.21503},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2507.21503}, 
 }  
-```   -->
