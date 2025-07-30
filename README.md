@@ -17,11 +17,10 @@
 
 ## 📌 Overview  
 **MoHoBench** is the first large-scale benchmark designed to systematically evaluate the *honesty* of Multimodal Large Language Models (MLLMs) when confronted with **visually unanswerable questions**.  
+Despite the remarkable progress of MLLMs in vision-language tasks, their tendency to generate untrustworthy or hallucinated responses remains a critical challenge. This work defines four types of unanswerable visual questions and constructs a high-quality dataset of **12,000+ samples** to assess MLLM honesty rigorously.  
 <p align="center">
   <img src="image/example.png" alt="Illustration of MoHoBench: (a) Data Construction; (b) Data Example; (c) Evaluation Framework." width="400">
 </p>
-
-Despite the remarkable progress of MLLMs in vision-language tasks, their tendency to generate untrustworthy or hallucinated responses remains a critical challenge. This work defines four types of unanswerable visual questions and constructs a high-quality dataset of **12,000+ samples** to assess MLLM honesty rigorously.  
 
 🔍 **Key Contributions:**  
 - Introduces a novel framework for evaluating MLLM honesty via unanswerable visual questions.  
