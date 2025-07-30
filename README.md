@@ -17,6 +17,9 @@
 
 ## 📌 Overview  
 **MoHoBench** is the first large-scale benchmark designed to systematically evaluate the *honesty* of Multimodal Large Language Models (MLLMs) when confronted with **visually unanswerable questions**.  
+<p align="center">
+  <img src="image/example.png" alt="Illustration of MoHoBench: (a) Data Construction; (b) Data Example; (c) Evaluation Framework." width="400">
+</p>
 
 Despite the remarkable progress of MLLMs in vision-language tasks, their tendency to generate untrustworthy or hallucinated responses remains a critical challenge. This work defines four types of unanswerable visual questions and constructs a high-quality dataset of **12,000+ samples** to assess MLLM honesty rigorously.  
 
@@ -28,12 +31,13 @@ Despite the remarkable progress of MLLMs in vision-language tasks, their tendenc
   - Honesty is **not just a language modeling issue** but is significantly influenced by visual input.  
 - Using **supervised and preference learning methods** for honesty alignment, paving the way for future trustworthy MLLM development.
 
-<p align="center">
-  <img src="image/illustration.pdf" alt="Illustration of MoHoBench: (a) Data Construction; (b) Data Example; (c) Evaluation Framework." width="800">
-</p>
-
 ## 📊 Dataset & Benchmark  
 MoHoBench consists of **12,000+ visual question-answer pairs** across four categories of unanswerable questions. Each sample undergoes rigorous filtering and human verification to ensure quality.  
+**Illustration of MoHoBench:**
+- (a) Data Construction; (b) Data Example; (c) Evaluation Framework.
+<p align="center">
+  <img src="image/main.png" alt="Illustration of MoHoBench: (a) Data Construction; (b) Data Example; (c) Evaluation Framework." width="800">
+</p>
 
 **Dataset Structure:**  
 - `./data/`: Contains benchmark dataset data/mohobench.json and training dataset data/vqa_train.json.
