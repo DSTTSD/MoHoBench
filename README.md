@@ -42,7 +42,8 @@ MoHoBench consists of **12,000+ visual question-answer pairs** across four categ
 - `./data/`: Contains benchmark dataset data/mohobench.json and training dataset data/vqa_train.json.
 - Pictures can be downloaded at: [link](https://www.dropbox.com/scl/fo/r1r9772w1qevid3bd816g/ADQgnCYe39XcAcFsCvUkrJQ?rlkey=19x2xfn2zflrqm58rfj2z50f3&st=uyy2wftb&dl=0)
 - `./prompts/dataset_construction_prompts.py`: Includes dataset construction prompts.  
-- `./prompts/response_evaluation_prompts.py`: Includes response evaluation prompts.  
+- `./prompts/response_evaluation_prompts.py`: Includes response evaluation prompts.
+- MoHoBench is released on Huggingface🤗: https://huggingface.co/datasets/dsttsd/mohobench_dataset
 
 ## 🏆 Benchmark Results  
 We evaluate **28 state-of-the-art MLLMs** (e.g., O1, GPT-4o, Qwen2.5-VL, etc.) on MoHoBench. Key findings:  
